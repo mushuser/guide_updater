@@ -2,7 +2,7 @@ redditlib.init_project(secret.subreddit, secret.secret_sr, secret.creds_main, se
 redditlib.check_init()
 
 
-updaterlib.init_project(secret.doc_filename, secret.doc_id, secret.doc_wiki, secret.page_header)
+updaterlib.init_project(secret.doc_sr, secret.doc_filename, secret.doc_id, secret.doc_wiki, secret.page_header)
 updaterlib.check_init()
 
 
